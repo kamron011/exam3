@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quantico", sans-serif;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .hdr {
+    background-color: #272c3d;
+    height: 70px;
+  }
+  
+  .wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .nvb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+  }
+  
+  .navlist {
+    display: flex;
+    gap: 26px;
+  }
+  
+  .navlist a {
+    color: white;
+    font-weight: 400;
+  }
+  
+  .navlist a:hover {
+    color: #ff9c28;
+  }
+  
+  .searchbar {
+    margin-left: 240px;
+  }
+  
+  .searchbar input {
+    background-color: #404864;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .lang {
+    display: flex;
+    align-items: center;
+    background-color: #0f111a;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    width: 165px;
+    margin-left: 38px;
+  }
+  
+  .arrow-down {
+    margin-left: auto;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid white;
+  }
+  
+  .hero-img {
+    background-image: url('Bg\ \(3\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  .section-title {
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 45px 0;
+  }
+  
+  .content-box {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .item img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 8px;
+  }
+  
+  .info-block {
+    background-color: #1b1e27;
+    padding: 60px 0;
+  }
+  
+  .text-card {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 30px;
+  }
+  
+  .content-row {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+  }
+  
+  .img-thumb {
+    width: 180px;
+  }
+  
+  .description {
+    color: #bfbfbf;
+    font-size: 14px;
+    line-height: 1.4;
+    max-width: 500px;
+  }
+  
+  .ft {
+    background-color: #272c3d;
+    height: 70px;
+  }
+  
+  .footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+  }
+  
+  .ft-logo {
+    width: 38px;
+    height: 38px;
+  }
+  
+  .ft-nav {
+    display: flex;
+    gap: 27px;
+  }
+  
+  .ft-nav a {
+    color: white;
+    font-size: 18px;
+  }
+  
+  .link-active {
+    color: #ff9c28;
+  }
+  
